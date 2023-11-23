@@ -87,20 +87,20 @@ int main()
       cout << "2 - Feed  u Critter\n";
       cout << "3 - Listen to u Critter\n";
       cout << "Choice --- ";
-      cin >> Choice;
+      cin >> choice;
       switch(choice)
         {
           case 0:
             cout << "Bye-Bye!\n";
             break;
           case 1:
-            cout << crit.Play();
+            crit.Play();
             break;
           case 2:
-            cout << crit.Eat();
+            crit.Eat();
             break;
           case 3:
-            cout << crit.Listen();
+            crit.Listen();
             break;
           default:
             cout << "What?         (-_-)\n";
